@@ -32,7 +32,7 @@ SSH-Honeypot adalah sistem yang dirancang untuk menarik serangan keamanan dengan
 
 Akses server SSH utama:
 ```
- ssh rendaemon@10.15.42.241 -p 69
+ssh rendaemon@10.15.42.241 -p 69
 ```
 -p  --port <port>   Port yang dilisten; port defaultnya adalah 69.
 
