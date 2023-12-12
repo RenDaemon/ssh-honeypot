@@ -38,7 +38,7 @@ ssh rendaemon@10.15.42.241 -p 69
 
 Akses server SSH jebakan:
 ```
-ssh rendaemon@10.15.42.241
+sudo ssh rendaemon@10.15.42.241
 ```
 
 ## Dokumentasi
