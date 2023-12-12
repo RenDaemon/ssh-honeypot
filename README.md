@@ -41,7 +41,7 @@ Akses server SSH jebakan:
 sudo ssh rendaemon@10.15.42.241
 ```
 
-## Dokumentasi
+## Dokumentasi & Log
 - Testing
 
 Tes dilakukan dengan mencoba melakukan upaya login secara paksa.
@@ -51,6 +51,11 @@ Tes dilakukan dengan mencoba melakukan upaya login secara paksa.
 - Log hasil informasi dari setiap upaya login yang masuk
 
 Log akan mencatat berbagai detail dari setiap upaya login yang mencakup username yang digunakan, password yang dicoba, alamat IP asal percobaan login, serta waktu atau tanggal dari percobaan tersebut. 
+Log pada Honeypot dapat disimpan ke dalam file .txt
+Format dari log Honeypot adalah sebagai berikut
+```
+[timestamp]    [IP Address]    [username]    [password]
+```
 
 ![Foto](./img/loghoneypot.png)
 
@@ -60,3 +65,4 @@ Dependencies yang digunakan:
 ```
 http://www.libssh.org/
 ```
+
