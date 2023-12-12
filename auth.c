@@ -9,17 +9,23 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-
-
-/* Stores the current UTC time. Returns 0 on error. */
-static int get_utc(struct connection *c) {
+static int get_utc(struct connection *c)
+{
     time_t t;
-    t = time(NULL);
-    return strftime(c->con_time, MAXBUF, "%Y-%m-%d %H:%M:%S", gmtime(&t));
+    struct tm *tm_info;
+
+    time(&t);
+    tm_info = localtime(&t);
+
+    if (tm_info == NULL)
+    {
+        fprintf(stderr, "Error getting local time\n");
+        return -1;
+    }
+
+    return strftime(c->con_time, MAXBUF, "%Y-%m-%d %H:%M:%S", tm_info);
 }
 
-
-/* Stores the client's IP address in the connection sruct. */
 static int *get_client_ip(struct connection *c) {
     struct sockaddr_storage tmp;
     struct sockaddr_in *sock;
