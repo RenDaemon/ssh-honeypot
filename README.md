@@ -23,7 +23,7 @@ SSH-Honeypot adalah sistem yang dirancang untuk menarik serangan keamanan dengan
 
     2. Edit file config.h untuk mengatur opsi yang diinginkan. Atur RSA_KEYFILE ke lokasi public key yang dihasilkan pada langkah satu. LOGFILE harus diatur ke lokasi di mana pengguna yang menjalankan sshpot dapat menulis.
 
-    3. Compile dnegan make:
+    3. Compile dengan make:
         > make
         # make install
 
