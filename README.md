@@ -1,4 +1,4 @@
-# Penilaian 2 Kemananan Jaringan Komputer (A)
+# SSH Honeypot - Penilaian 2 Kemananan Jaringan Komputer (A)
 
 **Kelompok 6**
 
