@@ -32,9 +32,20 @@ SSH-Honeypot adalah alat simulasi server SSH yang rentan, dirancang untuk menari
 
 Akses server SSH utama:
 ```
+ssh rendaemon@10.15.42.241 [-p <port>]
+```
+-p  --port <port>   Port yang dilisten; port defaultnya adalah 22.
+
+Mengubah port yang dilisten 22 menjadi 69 di
+```
+/etc/ssh//sshd_config
+```
+![Foto](./img/porthoneypot.png)
+
+Sehingga akses server SSH utama menjadi
+```
 ssh rendaemon@10.15.42.241 -p 69
 ```
--p  --port <port>   Port yang dilisten; port defaultnya adalah 69.
 
 Akses server SSH jebakan:
 ```
