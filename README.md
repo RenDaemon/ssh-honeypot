@@ -85,4 +85,5 @@ Notes : Expect adalah bahasa programming yang biasanya digunakan untuk otomasi i
 
 # Medium
 Untuk dokumentasi via medium dapat diakses pada link berikut:
+
 https://medium.com/@athreyhan04/implementasi-honeypot-berbasis-ssh-9a97ad2cb89e?postPublishedType=initial
