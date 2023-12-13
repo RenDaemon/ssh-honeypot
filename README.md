@@ -78,4 +78,5 @@ http://www.libssh.org/
 ```
 
 # Medium
+Untuk dokumentasi via medium dapat diakses pada link berikut:
 https://medium.com/@athreyhan04/implementasi-honeypot-berbasis-ssh-9a97ad2cb89e?postPublishedType=initial
