@@ -8,12 +8,12 @@ Rendy Anfi Yudha | 5027211006
 Aqil Sulthan Yuki Maye | 5027211007
 Abdul Zaki Syahrul Rahmat | 5027211020
 Gilbert Immanuel Hasiholan | 5027211056
-Athaya Reyhan Nugroho | 5027211040
+Athaya Reyhan Nugroho | 5027211067
 
 
 ## Deskripsi
 
-SSH-Honeypot adalah sistem yang dirancang untuk menarik serangan keamanan dengan menyimulasikan server SSH yang rentan. Berbeda dengan server SSH nyata, SSH-Honeypot tidak mengautentikasi pengguna; sebaliknya, ia merekam informasi dari setiap upaya login yang masuk, seperti username, password, alamat IP, serta waktu dari setiap percobaan login. Tujuannya adalah untuk menarik perhatian penyerang yang mencoba mengeksploitasi kelemahan keamanan dalam protokol SSH, sementara secara simultan melindungi server sebenarnya dari serangan tersebut. Dengan menggunakan SSH-Honeypot, administrator jaringan dapat memantau dan menganalisis serangan yang dilakukan untuk meningkatkan keamanan sistem mereka dengan mempelajari pola serangan yang umum terhadap layanan SSH.
+SSH-Honeypot adalah alat simulasi server SSH yang rentan, dirancang untuk menarik serangan keamanan. Berbeda dengan server SSH aktual, alat ini merekam informasi setiap upaya login yang masuk, termasuk username, password, alamat IP, dan waktu percobaan login. Tujuannya adalah untuk menarik perhatian penyerang yang mencoba mengeksploitasi kelemahan keamanan dalam protokol SSH, sementara secara simultan melindungi server sebenarnya dari serangan tersebut. Dengan menggunakan SSH-Honeypot, administrator jaringan dapat memantau dan menganalisis serangan yang dilakukan untuk meningkatkan keamanan sistem mereka dengan mempelajari pola serangan yang umum terhadap layanan SSH.
 
 
 ## Instalasi
