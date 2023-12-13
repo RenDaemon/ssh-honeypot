@@ -77,5 +77,11 @@ Dependencies yang digunakan:
 http://www.libssh.org/
 ```
 
+## Bruteforcing
+Disini kami sudah mencoba melakukan bruteforce terhadap honeypot tersebut menggunakan gabungan [file expect](https://github.com/RenDaemon/ssh-honeypot/blob/main/bruteforcer/bruteforcer.exp) yang dijalankan secara otomatis dalam interval tertentu oleh [file shell](https://github.com/RenDaemon/ssh-honeypot/blob/main/bruteforcer/run_bruteforcer.sh)
+Untuk hasil log dari bruteforce tersebut dapat dilihat di bagian bawah [file log](https://github.com/RenDaemon/ssh-honeypot/blob/main/honeypot_log.txt)
+
+Notes : Expect adalah bahasa programming yang biasanya digunakan untuk otomasi interaksi command line interface (CLI) seperti SSH
+
 # Medium
 https://medium.com/@athreyhan04/implementasi-honeypot-berbasis-ssh-9a97ad2cb89e?postPublishedType=initial
