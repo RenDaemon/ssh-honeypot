@@ -1,0 +1,30 @@
+#!/usr/bin/expect -f
+
+set file_path "/home/ubuntu/Downloads/1000000-password-seclists.txt"
+
+set file_content [exec cat $file_path]
+set string_list [split $file_content "\n"]
+
+set random_index [expr {int(rand() * [llength $string_list])}]
+set random_string [lindex $string_list $random_index]
+set random_index [expr {int(rand() * [llength $string_list])}]
+set random_string2 [lindex $string_list $random_index]
+set random_index [expr {int(rand() * [llength $string_list])}]
+set random_string3 [lindex $string_list $random_index]
+
+set user "rendaemon"
+set host "10.15.42.241"
+
+spawn ssh $user@$host
+
+expect "password:"
+send "$random_string\r"
+
+expect "password:"
+send "$random_string2\r"
+
+expect "password:"
+send "$random_string3\r"
+
+expect eof
+
