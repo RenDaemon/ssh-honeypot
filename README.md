@@ -38,7 +38,7 @@ ssh rendaemon@10.15.42.241 [-p <port>]
 
 Mengubah port yang dilisten 22 menjadi 69 di
 ```
-/etc/ssh//sshd_config
+/etc/ssh/sshd_config
 ```
 ![Foto](./img/porthoneypot.png)
 
